@@ -4,7 +4,7 @@ author: Rune Unhjem <runeunhjem>
 tags: Qwik, case study, web framework, performance, lazy loading, server-side rendering
 ---
 
-<a href="https://qwik.builder.io/">
+<a href="https://qwik.builder.io/" title="Visit Qwik" target="_blank">
     <img src="https://seeklogo.com/images/Q/qwik-logo-4D2D8CA440-seeklogo.com.png" alt="Qwik Logo" width="100" height="100">
 </a>
 
@@ -26,7 +26,7 @@ With its focus on [resumability](https://qwik.dev/docs/concepts/resumable/) and 
 ## What is the problem?
 Modern websites require vast amounts of JavaScript to become interactive. Too much JavaScript manifests itself in two problems:
 
-- **Startup Time:** The time it takes for the application to become interactive is too long, leading to a poor user experience. Once on the client, the code needs to be executed (as part of hydration) <a href="https://www.builder.io/blog/hydration-is-pure-overhead?__hstc=186550006.ef833f74d0b2cb5d8c93b63a79de5b49.1706623625832.1707120344013.1707124709195.4&__hssc=186550006.3.1707124709195&__hsfp=1673902278" title="Read more about hydration here">[?]</a> to get the site interactive.
+- **Startup Time:** The time it takes for the application to become interactive is too long, leading to a poor user experience. Once on the client, the code needs to be executed (as part of hydration) <a href="https://www.builder.io/blog/hydration-is-pure-overhead?__hstc=186550006.ef833f74d0b2cb5d8c93b63a79de5b49.1706623625832.1707120344013.1707124709195.4&__hssc=186550006.3.1707124709195&__hsfp=1673902278" title="Read more about hydration here" target="_blank">[?]</a> to get the site interactive.
 - **Network Bandwith:** A large amount of code is shipped to the client, which may take a long time on slow networks. Unnecessary code is transferred, increasing data usage and slowing down the user experience.
 
 As our applications get more complex with a higher fidelity of interactivity, the amount of code has steadily increased over the years with no sign of stopping. Simply put, our sites are getting more complex. An increase in site complexity, in turn, requires more code. All of this code negatively impacts site startup performance.
@@ -38,7 +38,7 @@ To make matters worse, JavaScript is single-threaded; therefore, our complex sit
 Qwik addresses these issues by introducing a new approach to web development, focusing on performance optimization.
 It achieves this by using the following <b>core concepts</b>:
 
-- **Resumability <a href="https://qwik.dev/docs/concepts/resumable/" title="Read more about resumability here"> [?]</a>:** Qwik's resumable architecture allows the application to resume interactivity quickly, even after a page refresh or a network interruption.
+- **Resumability <a href="https://qwik.dev/docs/concepts/resumable/" title="Read more about resumability here" target="_blank"> [?]</a>:** Qwik's resumable architecture allows the application to resume interactivity quickly, even after a page refresh or a network interruption.
 - **Fine-Grained Lazy Loading:** Qwik only loads the necessary code chunks during user interactions, reducing the amount of code shipped to the client.
 - **Server-Side Rendering (SSR):** Qwik enhances initial load performance and SEO by rendering the initial HTML on the server.
 - **State Management:** Qwik efficiently manages, serializes, and transfers state, reducing the amount of data transferred between the client and server.
@@ -100,7 +100,7 @@ As seen in the table, Qwik has a retention rate of 85% in 2022, which is impress
 And looking at the usage in 2022, Qwik has a 2% usage rate, which is also impressive for a framework that was released only two years ago.
 
 <img src="./qwik-vs-others.png" alt="Qwik versus other frameworks">
-(Screenshot from Manu Martinez-Almeida'S - <a href="https://www.youtube.com/watch?v=bvSlEweRyjE&list=PLq_6N4Z1G7mSAh_v9jfVUcu_R1vOM5Nob">Qwik: Performance is a Human Design Issue | ViteConf 2023</a>)
+(Screenshot from Manu Martinez-Almeida'S - <a href="https://www.youtube.com/watch?v=bvSlEweRyjE&list=PLq_6N4Z1G7mSAh_v9jfVUcu_R1vOM5Nob" title="See the full video on youtube" target="_blank">Qwik: Performance is a Human Design Issue | ViteConf 2023</a>)
 
 The bigger and more complex the app or site, the more JS is shipped to the client.
 Qwik is designed to address this problem by shipping only the necessary code to the client, resulting in faster load times and better performance.
@@ -113,7 +113,7 @@ Qwik is designed to address this problem by shipping only the necessary code to 
 4. **Community and Support:** Growing community contributing to its development.
 
 [DeveloperTown](https://developertown.com/) has a comparison of popular frameworks with pro's and cons, which can be found here:
-<a href="https://developertown.com/javascript-framework-comparison" title="JavaScript Framework Comparison">JavaScript Framework Comparison</a>
+<a href="https://developertown.com/javascript-framework-comparison" title="JavaScript Framework Comparison" target="_blank">JavaScript Framework Comparison</a>
 
 ## Use Cases and Applications
 Qwik shines in scenarios demanding rapid load times and interactivity, such as:
@@ -140,8 +140,14 @@ Run the Qwik CLI in your shell. Qwik supports npm, yarn, pnpm and bun. Choose th
 
 ```bash
 npm create qwik@latest
+```
+```bash
 pnpm create qwik@latest
+```
+```bash
 yarn create qwik
+```
+```bash
 bun create qwik@latest
 ```
 The CLI guides you through an interactive menu to set the project name, select one of the starters and ask if you want to install the dependencies. Find out more about the files generated by referring to the [Project Structure](https://qwik.dev/docs/project-structure/) documentation.
@@ -150,8 +156,14 @@ Start the development server:
 
 ```bash
 npm start
+```
+```bash
 pnpm start
+```
+```bash
 yarn start
+```
+```bash
 bun start
 ```
 
