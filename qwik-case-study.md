@@ -1,6 +1,6 @@
 ---
 title: Qwik Case Study
-author: Rune Unhjem<runeunhjem>
+author: Rune Unhjem <runeunhjem>
 tags: Qwik, case study, web framework, performance, lazy loading, server-side rendering
 ---
 
@@ -112,8 +112,7 @@ Qwik is designed to address this problem by shipping only the necessary code to 
 3. **Learning Curve:** Steeper for those unfamiliar with its unique concepts.
 4. **Community and Support:** Growing community contributing to its development.
 
-[DeveloperTown](https://developertown.com/) has been using Qwik for a few projects and has seen a significant improvement in performance. Qwik is a great choice for projects where performance is a top priority.
-See a quick comparison here with a few key features from each framework:
+[DeveloperTown](https://developertown.com/) has a comparison of popular frameworks with pro's and cons, which can be found here:
 <a href="https://developertown.com/javascript-framework-comparison" title="JavaScript Framework Comparison">JavaScript Framework Comparison</a>
 
 ## Use Cases and Applications
@@ -210,5 +209,5 @@ A 20m 44s video by Manu Martinez-Almeida from ViteConf 2023
 - [A first look at Qwik - the HTML-first framework](https://www.builder.io/blog/introducing-qwik-framework)
 - [Qwik Framework Deep-Dive Full Course with Misko Hevery (The Creator of Angular & now Qwik)](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik by Misko Hevery
 
-Author: Rune Unhjem<runeunhjem>,
+Author: Rune Unhjem <runeunhjem>,
 Published: 2024-02-16
