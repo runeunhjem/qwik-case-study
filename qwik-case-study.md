@@ -14,7 +14,7 @@ tags: Qwik, case study, web framework, performance, lazy loading, server-side re
 
 ## Introduction
 Qwik, a modern and fairly new web framework, is uniquely designed for optimal performance in web applications.
-Sites and apps can boot with an initial payload of about 1kb of JS (regardless of application complexity), giving instant interactivity, and achieving consistent performance at scale. (The total JavaScript size will depend on the application's complexity and the amount of code lazily loaded over time.)
+Sites and apps can boot with an initial payload of about 1kb of JS (regardless of application complexity), giving instant interactivity, and achieving consistent performance at scale. (The total JavaScript size will depend on the application's complexity and the amount of code lazily loaded over time).
 With its focus on [resumability](https://qwik.dev/docs/concepts/resumable/) and fine-grained lazy loading, Qwik is a standout choice for projects where speed and efficiency are crucial.
 
 ## Brief History
