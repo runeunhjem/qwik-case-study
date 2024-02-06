@@ -1,6 +1,5 @@
 ---
 title: Qwik Case Study
-published: 2024-Feb-16
 author: Rune Unhjem <runeunhjem>
 tags: Qwik, case study, web framework, performance, lazy loading, server-side rendering
 ---
