@@ -1,5 +1,6 @@
 ---
 title: Qwik Case Study
+published: 2024-Feb-16
 author: Rune Unhjem <runeunhjem>
 tags: Qwik, case study, web framework, performance, lazy loading, server-side rendering
 ---
@@ -219,7 +220,6 @@ Qwik is a forward-thinking framework, addressing the needs of modern web applica
 A 20m 44s video by Manu Martinez-Almeida from ViteConf 2023
 - [Building a Sample App with Qwik](https://qwik.builder.io/tutorial/)
 - [A first look at Qwik - the HTML-first framework](https://www.builder.io/blog/introducing-qwik-framework)
-- [Qwik Framework Deep-Dive Full Course with Misko Hevery (The Creator of Angular & now Qwik)](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik by Misko Hevery
+- [Qwik Framework Deep-Dive Full Course with Misko Hevery](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik with Misko Hevery (The Creator of Angular & now Qwik)
 
-Author: Rune Unhjem <runeunhjem>,
-Published: 2024-02-16
+Rune Unhjem on [GitHub](https://github.com/runeunhjem), Published: 2024-02-16
